@@ -1,0 +1,178 @@
+.main_body{
+    padding-top: 75px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.mainBig {
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 30px 15px;
+    border-radius: 0 0 5px 5px;
+}
+.mainItem{
+    display: none;
+}
+.mainItem:first-child{
+    display: block;
+}
+ul.list_ques{
+    padding: 0;
+    list-style: none;
+}
+.list_ques .handle {
+    display: block;
+    cursor: move;
+    line-height: 55px;
+    padding: 0 10px;
+    font-size: 16px;
+    width: 38px;
+    flex-shrink: 0;
+}
+.examTitle h1{
+    width: 100%;
+    color: #2D317F;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.btnShowAns {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+.panel-body.list_ans{
+    display: none;
+}
+.quesName{
+    font-size: 28px;
+    font-weight: 600;
+    /*margin-bottom: 20px;*/
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+.quesName .quesNameContent input[type=number]{
+    color: #000;
+    width: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+.btnOptionQues{
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #fff;
+    color: #999;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+.formEditQues{
+    display: none;
+}
+.btnOptionQues .fa-times-circle{
+    display: none;
+    color: #d33;
+}
+.btnEditQues{
+    padding-right: 5px;
+}
+a.btnDeleteQues{
+    color: #999;
+    text-decoration: none;
+}
+a.btnDeleteQues:hover{
+    color: #fa383e;
+}
+
+
+.answerBody{
+    position: relative;
+}
+.btnOptionAns{
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #fff;
+    color: #999;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+.btnOptionAns .fa-times-circle{
+    display: none;
+    color: #d33;
+}
+.formEditAns{
+    display: none;
+}
+.btnEditAns{
+    padding-right: 5px;
+}
+a.btnDeleteAns{
+    color: #999;
+    text-decoration: none;
+}
+a.btnDeleteAns:hover{
+    color: #fa383e;
+
+}
+
+.timeout {
+    text-align: center;
+    background: rgba(199, 23, 23, 0.6);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.result_table{
+    padding-top: 30px;
+}
+.result_table tr td{
+    padding: 20px 10px;
+}
+.gr_btn{
+    text-align: center;
+}
+
+.mb-3{
+    margin-bottom: 30px
+}
+.quesNameContent{
+    display: flex;
+    align-items: center;
+}
+.quesNameContentMain{
+    line-height: 20px;
+    display: block;
+}
+.formEditAns label.error, .form_add_ans label.error, .formEditQues label.error {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    font-size: 12px;
+    color: #e44;
+    font-weight: 600;
+    font-style: italic;
+}
+.form_add_ques label.error, .form_edit_exam label.error{
+    font-size: 12px;
+    color: #e44;
+    font-weight: 600;
+    font-style: italic;
+}
+span.icon_load{
+    display: none;
+}
+
+span.icon_load img {
+    width: 34px;
+
+}

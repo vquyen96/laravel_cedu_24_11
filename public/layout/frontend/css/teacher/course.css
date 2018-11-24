@@ -1,0 +1,191 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main_body{
+	padding-top: 75px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+#maint-top{
+	margin-top: 50px;
+}
+.heading{
+	margin-bottom: 80px;
+}
+.heading h1{
+	width: 100%;
+    color: #2D317F;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+.heading p{
+	color: #999999;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+
+.course{
+	margin-bottom: 85px;
+}
+a.add-course{
+	display: block;
+	text-decoration: none;
+	background:#FCC72E;
+	margin-left: 20px;
+	text-align: center;
+	border-radius: 7px;
+}
+a.add-course p{
+	line-height: 60px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.img{
+	height: 250px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.sticker{
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 130px;
+}
+.sticker p{
+	margin-bottom: unset;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.courseNoActive{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(45, 49, 127, 0.37);
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 250px;
+}
+.tieu-de{
+	color: #666666;
+	font-size: 18px;
+	font-weight: bold;
+}
+.chi-tiet{
+	display: flex;
+}
+.star{
+	font-size: 16px;
+	color: #C4C4C4;
+	margin-right: 18px;
+}
+.starActive {
+	color: #FCC72E;
+}
+.star i{
+	margin-right: 6px;
+}
+.chi-tiet p{
+	flex: 3;
+	color: #999999;
+	font-size: 14px;
+	line-height: 20px;
+}
+.chi-tiet .fas{
+	margin: 0 15px;
+	font-size: 8px;
+
+}
+.price{
+	overflow: hidden;
+}
+.price strike{
+	color: #999999;
+	font-size: 14px;
+	float: left;
+	line-height: 54px;
+	margin-right: 25px;
+}
+.price p{
+
+	color: #2D317F;
+	font-size: 36px;
+	font-weight: bold;
+}
+.summary{
+	color: #999999;
+	font-size: 16px;
+	text-align: justify;
+}
+a.button{
+	background:#FCC72E;
+	display: block;
+	width: 150px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 7px;
+}
+a.number{
+	text-decoration: none;
+}
+.number{
+	color: #999999;
+	font-size: 14px;
+	font-weight: 1000;
+	margin-right: 20px;
+}
+.number:hover{
+	color: #000;
+}
+#page-number .fas{
+	color: #999999;
+}
+#list-course{
+	margin-bottom: 80px;
+}
+@media screen and (max-width: 768px){
+	.main_body{
+		padding-top:30px;
+	}
+	a.add-course{
+		margin-left: 0;
+		margin: auto;
+		width: 90%;
+		line-height: 50px;
+		margin-bottom: 50px;
+	}
+	a.add-course p{
+		line-height: 50px;
+
+	}
+	.chi-tiet p{
+		display: none;
+	}
+	.heading{
+		margin-bottom: 20px;
+	}
+
+	.price p{
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 767px){
+	.info{
+		margin-top: 15px;
+	}
+}
