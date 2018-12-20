@@ -20,7 +20,7 @@ class LoginController extends Controller
 //    	$acc = Account::where('email', $request->email)->first();
 //    	dd(Auth::login($acc, true));
 
-         $this->checkUserBot($arr);
+        $this->checkUserBot($arr);
     	if(Auth::attempt($arr, true )){
     		if (Auth::user()->level > 6  ) {
                 if (Auth::user()->level == 7) {
